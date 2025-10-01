@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Tanvir Hossain | Portfolio of a Computer Science Student and Full Stack Developer with projects in Node.js, MongoDB, and Arduino.">
+  <title>Tanvir | Portfolio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Tanvir Hossain</h1>
+  <p>Computer Science Student | Full Stack Developer | Tech Enthusiast</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    <a href="https://www.facebook.com/tanvirh2001" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+    <a href="https://instagram.com/tanvirh2001" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="https://twitter.com/tanvirh2000" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+  </nav>
+</header>
+
+<section id="about" data-aos="fade-up">
+  <h2 class="title">About Me</h2>
+  <div class="about-content">
+    <div class="about-image" data-aos="zoom-in-right">
+      <img src="https://avatars.githubusercontent.com/u/165998189?v=4" alt="Tanvir Hossain">
+    </div>
+    <div class="about-text" data-aos="fade-left" data-aos-delay="200">
+      <p>Hello! I'm <strong>Tanvir Hossain</strong>, a passionate Computer Science student who enjoys turning real-world problems into software solutions.</p>
+      <p>I specialize in <strong>Web Development</strong> and <strong>embedded systems</strong>. I’m always learning and exploring new technologies to grow my skills.</p>
+      <p>I have hands-on experience with <strong>Node.js, Express.js, MongoDB, JavaScript, and Arduino</strong>. I enjoy working on both front-end and back-end development.</p>
+      <p>I’ve built projects like a full-stack Hospital Management System and an Arduino-powered digital thermometer.</p>
+      <p>💡 <em>Goal:</em> To become a professional full-stack developer, contribute to impactful open-source projects, and build solutions that improve lives.</p>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2 class="title">🛠️ Skills</h2>
+  <div class="skills">
+    <div data-aos="fade-right" data-aos-delay="100"><span>C</span><span>C++</span><span>JavaScript</span></div>
+    <div data-aos="fade-right" data-aos-delay="300"><span>Node.js</span><span>Express.js</span><span>MongoDB</span></div>
+    <div data-aos="fade-right" data-aos-delay="500"><span>HTML</span><span>CSS</span><span>Arduino</span></div>
+    <div data-aos="fade-right" data-aos-delay="700"><span>Git & GitHub</span><span>REST API</span></div>
+  </div>
+</section>
+
+<section id="projects" data-aos="fade-up">
+  <h2 class="title">📚 Projects</h2>
+  <div class="project" data-aos="flip-left" data-aos-delay="100">
+    <h3>🏥 Hospital Management System</h3>
+    <p>Full-stack app with admin login, appointments, and billing. Built using Node.js, Express, MongoDB.</p>
+    <a href="#" class="button">View on GitHub</a>
+  </div>
+  <div class="project" data-aos="flip-left" data-aos-delay="200">
+    <h3>🌡️ Digital Thermometer with Arduino</h3>
+    <p>LM35 sensor with Arduino UNO and LCD display for real-time temperature monitoring.</p>
+    <a href="#" class="button">Project Details</a>
+  </div>
+  <div class="project" data-aos="flip-left" data-aos-delay="300">
+    <h3>🌐 Portfolio Website</h3>
+    <p>This site! Built using HTML, CSS, and AOS animations for smooth UX.</p>
+    <a href="#" class="button">Source Code</a>
+  </div>
+</section>
+
+<section id="contact" data-aos="fade-up">
+  <h2 class="title">📫 Contact With Me</h2>
+  <form id="contactForm" data-aos="zoom-in" data-aos-delay="200">
+    <label for="name">Name:</label>
+    <input type="text" id="name" required placeholder="Your Name">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" required placeholder="Your Email">
+
+    <label for="message">Message:</label>
+    <textarea id="message" rows="5" required placeholder="Your Message"></textarea>
+
+    <button type="submit" class="button">Send Message</button>
+    <p id="formMessage"></p>
+
+    <p>📍 <strong>Location:</strong> Dhaka, Bangladesh</p>
+  </form>
+</section>
+
+<footer>
+  © 2025 Tanvir Hossain. Built with 💙 by Me
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
